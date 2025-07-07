@@ -1,6 +1,9 @@
-cd   # entra a tu carpeta local
-git init
-git remote add origin https://github.com/Paulinajimenez07/mi-app-vercel-paulina-j.git
+# Clona el repositorio (una sola vez)
+git clone https://github.com/Paulinajimenez07/mi-app-vercel-paulina-j.git
+cd mi-app-vercel-paulina-j
+
+# Haz cambios al archivo index.html o agrega nuevos archivos
+# Luego, súbelos al repositorio:
 git add .
-git commit -m "Agrego index.html"
-git push -u origin main  # (o 'master', según el nombre de tu rama)
+git commit -m "Actualizo index.html"
+git push origin main  # o 'master', según la rama
